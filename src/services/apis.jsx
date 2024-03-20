@@ -1,4 +1,5 @@
-import {BASE_URL} from "../baseUrl"
+// import {BASE_URL} from "../baseUrl"
+const BASE_URL = "http://localhost:4000/api/v1"
 
 // AUTH ENDPOINTS
 export const endpoints = {
