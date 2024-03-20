@@ -23,10 +23,7 @@ database.connect();
 app.use(express.json());
 app.use(cookieParser());
 app.use(
-	cors({
-		origin:"https://study-notion-mega-project.vercel.app",
-		credentials:true,
-	})
+	cors()
 )
 
 app.use(
